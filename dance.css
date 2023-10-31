@@ -1,0 +1,20 @@
+body{
+    background-image: url(fooldal\ hatter.jpg);
+    color: rgba(0, 0, 0, .7);
+}
+
+.szovegJobbra{
+    text-align: right;
+}
+
+.logo{
+    max-height: 3.75rem;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+h1, h2{
+    color: #af948a;
+}
