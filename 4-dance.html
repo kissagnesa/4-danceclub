@@ -1,31 +1,229 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dance.css">
-    <script src="bootstrap/jquery.min.js"></script>
-    <script src="bootstrap/popper.min.js"></script>
-    <script src="bootstrap/bootstrap.min.js"></script>
-    <title>4-Dance Club Tánc és Musicalstúdió</title>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+  <title>4-dance musical és táncstúdió</title>
+  <link rel="stylesheet" href="../4-dance/dance.css">
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
 </head>
 
 <body>
-<img class="logo" src="4dacelogo.webp" alt="logo" title="logo">Érzék és szenvedély
-    <h1>4-Dance Club Tánc 
-        <br> és Musicalstúdió</h1>
 
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-red">
+  <a class="navbar-brand" href="#">Navigáció </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="nav nav-tabs bg-red">
+      <li class="nav-item active">
+        <a class="nav-link" href="#verseny">Versenyeredményeink <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hutterlinda">Hutter Linda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#olahszabina">Oláh Szabina</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+      </li>     
+      <li class="nav-item">
+        <a class="nav-link" href="#orak_taborok">Órák, táborok</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
 
-    <p>
-        A 25 éve működő, Miskolc Város Önkormányzata által "Nívódíjjal"
-        kitüntetett tánciskola, szeretettel vár minden kedves érdeklődőt.
-    </p>
+<div id="slider" class="container carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+    <li data-target="#slider" data-slide-to="3"></li>
+  </ul>  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/Az egyesuletrol kepek/korus1.jpeg" alt="Kórus" title="Kórus">
+    </div>
+    <div class="carousel-item">
+      <img src="/Az egyesuletrol kepek/macskakkep.webp" alt="Macskák" title="Macskák">
+    </div>
+    <div class="carousel-item">
+      <img src="/Az egyesuletrol kepek/csoportkep1.webp" alt="Csapat" title="Csapat">
+    </div>
+    <div class="carousel-item">
+      <img src="/Az egyesuletrol kepek/Linda2.jpeg" alt="Hutter Linda" title="Hutter Linda">
+    </div>
+  </div>  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#slider" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slider" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 
+  
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+	  <h1 class="display-2">A 4-DANCE CLUB Tánc és Musical Stúdió</h1>
+      <p id="def">A 4-DANCE CLUB Tánc és Musical Stúdió Ifjúsági Egyesület 1998 óta működik egyre nagyobb sikerrel Miskolcon. Rendszeres fellépői a város, a megye és az ország különböző rendezvényeinek. Nem ismeretlenek az országhatáron túl sem, hiszen felléptek már Grazban, Szlovákiában és 2002-ben meghívást kaptak Lengyelországba, a Magyar Napok rendezvénysorozatra, ahol nagy sikerrel szerepeltek.  Fennállásuk óta eredményesen vesznek részt szakági versenyeken, ahol dobogós helyezéseket érnek el. Táncoktatás, pilates, hangképzés, színészmesterség. Táncművészeti intézménybe való felkészítés.  
+        Egész estét betöltő musicalek és rockoperák bemutatása.
+        Fellépéseket vállalunk az ország egész területén!</p>     
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6" id="verseny">
+      <h2 class="display-4">Versenyeredményeink</h2>
+      <p>Legfrissebb versenyeredményeink 2023:
+<ul>
+    <li>Revolution Dance Cup - Nemzetközi Minősítő Táncverseny</li>
+    <li>
+        Pink Team: <br>
+        • Swalla / arany minősítés <br>
+        • Milyen szép a világ / arany minősítés és különdíj
+    </li>
+    <li>
+        Silver Team: <br>
+        • Icon / arany minősítés <br>
+        • Unstoppable / kiemelt arany minősítés <br>
+        • I follow you / kiemelt arany minősítés és kategória legjobbja különdíj
+    </li>
+    <li>
+        Gold Team: <br>
+        • Just give me a reason / arany minősítés <br>
+        • Alive / kiemelt arany minősítés
+    </li>
+    <li>
+        Diamond Team: <br>
+        • Nicki mix / arany minősítés <br>
+        • Fire / kiemelt arany minősítés és kategória legjobbja különdíj
+    </li>
+    <li>
+        Megacrew: <br>
+        • Mirandote / arany minősítés
+    </li>
+     <li>
+         Duo/trio: <br>
+             • Lilien & Maja / arany minősítés <br>
+             • Miri & Lilla / arany minősítés
+     </li>
+</ul></p>
+    </div>
+    <div class="col-lg-6" id="hutterlinda">
+      <h2 class="display-4">Hutter Linda</h2>
+      <img src="/Linda képek/hutterlinda.webp" alt="Linda" title="Linda">
+      <h3>"Én itt vagyok otthon"</h3>
 
-<h2>Beiratkozás -></h2>
+        <p>Álmodott egyet, és megvalósította. A kis csoportból tizenegy év alatt nagy családot varázsolt maga köré. Neve elválaszthatatlan a 4-Dance Club Táncstúdiótól. Táncol, koreografál, szervez, tanít, és folyamatosan képzi magát. Ő Hutter Linda.</p>
+        <p>Három éves korom óta táncolok, és bár mindent el tudok táncolni, úgy gondolom, vannak nálam jobb táncosok is. Szerintem a táncpedagógiához értek a legjobban, ehhez van a legtöbb adottságom. Valahogy mindig jó érzékkel tapintok rá arra, hogy kivel hogyan kell bánni.</p>
+        <p>Szinte gyermekként, 16 éves korában alapította meg a 4-Dance Club Táncstúdiót.</p>
+        <p>"Akkor jöttem rá, hogy a tanítással és a kortárs táncművészettel komolyan akarok foglalkozni. Abban az időben több olyan stúdió is alakult, amelyeknek véleményem szerint nem sok közük volt a modern tánchoz, és mivel úgy gondoltam, és vélem ma is, hogy az tanítson, aki ért hozzá, magántanuló lettem és megalapítottam az egyesületet. Azóta hobbiként, a főállásom mellett ezzel foglalkozom. Rengeteg munka fekszik benne, és sok áldozatot követel. Számos, az egyéni karrieremet előtérbe helyező lehetőséget kihagytam miatta. Külföldre is mehettem volna, de én itt vagyok itthon, és már tudom, hogy megérte maradni. Semmivel nem pótolható szeretetet, odaadást és hálát kapok a tanítványaimtól."</p>
+        <p>Indulásuk óta sok stúdió már megszűnt. A 4-Dance megmaradt. Repertoárjuk folyton bővül. Külföldön is ismerik előadásaikat. A versenyekről pedig mindig elhoznak valamilyen díjat.</p>
+        <p>Nehéz volt idáig eljutni és még nehezebb fennmaradni, de hiszek abban, hogy a befektetett munkának egyszer beérik a gyümölcse, és abban, hogy az érték mindig nyer. Induláskor a magánéletben is csapatként működő olyan csoportot szerettem volna kialakítani, ami egy nagy családként, a szeretet, a nyíltság és az őszinteség jegyében működik. Kezdetben harmincan voltunk, most majdnem háromszázan vagyunk. Ezek a számok, a szakmai elismerések és a különféle visszaigazolások számomra azt mutatják, hogy sikerült elérnem azt, amit szerettem volna.</p>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-lg-6" id="olahszabina">
+      <h2 class="display-4">Oláh Szabina</h2> 
+      <img src="/Szabina képek/zabina.webp" alt="Szabina" title="Szabina">
+      <p>A táncot 4 évesen kezdtem el. Először a balettal utána akrobatikával ismerkedtem meg, majd sok más stílust is kipróbáltam. Művészeti általános iskolába jártam, ahol moderntáncot és néptáncot tanultam. Az iskola mellett 10 évig táncoltam Miskolcon a T-dance Tánc Centrumban, ahol megismerkedtem a hip-hop tánccal és egyéb más tánc műfajokkal. Ezt követően a miskolci Grand Dance Tánc- és Mozgásstúdióban táncoltam 2 évig.</p>
 
-<p class="szovegJobbra">"Amikor már azt érzed nem bírod tovább, <br>akkor kezdődik az igazi munka".</p>
+        <p>A nyári táborokban volt szerencsém nagyon sok vendégtanártól tanulni, bővíteni a tudásomat. A középiskolát elvégezve beiratkoztam a miskolci Balázs Győző Református Líceum tánctagozatára, ahol megszereztem a színházi táncos szakmámat. Itt tanultam balettet, modern-, kortárs táncokat, néptáncot, társastáncot és igazából a tánc minden féle stílusát. Jelenleg a Magyar Táncművészeti Egyetem II. évfolyamos hallgatója vagyok</p>
+        
+        <p>A tanításból is kivettem a részem. Eleinte szalagavató táncokat tanítottam, majd egy éven keresztül a Grand Dance Tánc- és Mozgásstúdió tanára lettem, ahol a jazz balett rejtelmeibe vezettem be a 14-17 éves korú gyerekeket. Jelenleg 3 éve hip-hop táncot oktatok a miskolci 4-Dance Club Tánc- és Musical Stúdióban heti 2x 2 órában.</p>
+        
+        Táncosként szerepeltem:
+        <ol>
+            <li>Miskolci Bartók Operafesztiválon előadott Fából Faragott Királyfi tánc előadáson,</li>
+            <li>Iby - Indulj el című videó klipben,</li>
+            <li>2013-ban Molnár Ferenc Caramel két nagy koncertjén (Budapest, Debrecen),</li>
+            <li>Milánói Világkiállításra készült Magyarországról szóló filmben,</li>
+            <li>2015-től az R-Go zenekar egyik Gidája vagyok.</li>
+        </ol>
+        
+        <p>Amire a legbüszkébb vagyok:</p>
+        
+        <p>
+            IV. Abigél Országos Minősítő Táncfesztivál modern-kortárs szóló: arany minősítés+versenyzői különdíj hip-hop formáció: arany minősítés
+            Magyar Látványtánc Sportszövetség magyar bajnokság: street latin I. helyezés
+        </p>
+      </div>
+      <div class="col-lg-6" id="kapcsolat">
+        <h2 class="display-4">Kapcsolat</h2> 
+        <h3>Lépj velünk kapcsolatba</h3>
 
+        <p>4-Dance Club Tánc és Musicalstúdió</p>
+        <p>Képzés helyszíne:</p>
+        
+        <p>3530 Miskolc, Serház utca 1. - Százszorszép Óvoda</p>
+        <p>4danceclub@gmail.com</p>
+        <p>+36 20 / 950 59 30</p>
+        
+        <p>Egyesület:</p>
+        
+        <p>4-Dance Club Táncstúdió Ifjúsági Egyesület</p>
+        <p>3531 Miskolc, Vászonfehérítő utca 14. 2/1</p>
+        <p>Adószám: 18418275-1-05</p>
+        
+        <p>Facebook oldalunk <a href="https://www.facebook.com/4DanceClub" target="_blank">ITT</a> érhető el.</p>
+        
+        <!-- Itt lesz a js jelentkezési form!!!! -->
+        
+    
+    <div class="col-lg-6" id="orak_taborok">
+      <h2 class="display-6">Órák, táborok</h2> 
+      <h3>Órarend</h3>
+ 
+      <h4>Felnőtt és junior képzések</h4>
+      
+      <p>Hétfő 16:30 - 20:00</p>
+      <p>Péntek 16:30 - 20:00</p>
+      
+      <h4>Gyermek képzések</h4>
+      
+      <p>Kedd 16:30 - 18:00</p>
+      <p>Csütörtök 16:30 - 18:00 </p>
+      
+      
+      <h4>Képzések</h4>
+      <p>Hétköznapi órák</p>
+      <p>Moderntánc</p>
+      <p>Gyermek, junior és felnőtt képzések</p>
+      
+      <h4>HipHop</h4>
+      <p>Gyermek, junior és felnőtt képzések</p>
+      <p>HipHop + Moderntánc</p>
+      <p>Gyermek, junior és felnőtt képzések</p>
+      <br>
+      <p>Balett alapok</p>
+      <p>Gyermek képzés</p>
+      
+      <h4>Alakformáló Pilates</h4>
+      Felnőtt képzés
+          
+      
+</footer>
 
 </body>
 </html>
+
