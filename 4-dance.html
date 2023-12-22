@@ -207,9 +207,26 @@
         
         <p>Facebook oldalunk <a href="https://www.facebook.com/4DanceClub" target="_blank">ITT</a></p>
         <h3>Jelenkezés:</h3>
-        
-       </div>
+        <form action="jelentkezes">
+          <label for="nev">Név:</label>
+            <input type="text" class="form-control" id="nev" />
+            <label for="kor">Kor:</label>
+            <input type="number" class="form-control" id="kor"  />
+            <label for="tancnem">Táncnem:</label>
+            <select name="tancnem" id="tancnem">
+              <option>Modern tánc</option>
+              <option>HipHop</option>
+              <option>Balett alapok</option>
+              <option>Alakformáló Pilates</option>
+            </select> <br>
+            <label for="telefonszam">Telefonszám:</label>
+            <input type="tel" class="form-control" id="telefonszam"  />
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" id="email"  />
+            <a mailto="sindzse88@gmail.com"><button type="submit" onclick="elkuldes()">Elküld</button></a>
+        </form>
     </div>
+  </div>
 
 <footer>
       <h2 id="orak" class="display-4">Órák</h2>
